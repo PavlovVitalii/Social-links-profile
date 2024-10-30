@@ -58,23 +58,32 @@ main {
 }
 
 .info p {
-    padding: 27px 0 27px 0 ;
+  padding: 27px 0 27px 0;
 }
 
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 li {
-    background: hsl(0, 0%, 20%);
-    border-radius: 10px;
-    height: 45px;
-    margin-bottom: 16px;
-    line-height: 45px;
+  background: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  height: 45px;
+  margin-bottom: 16px;
+  line-height: 45px;
 }
 
 a {
-    color: white;
-    text-decoration: none;
-    letter-spacing: 0.46px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.46px;
+}
+
+@media (hover: hover) {
+  li:hover {
+    background: hsl(75, 94%, 57%);
+    a {
+      color: black;
+    }
+  }
 }
