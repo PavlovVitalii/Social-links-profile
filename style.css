@@ -48,14 +48,14 @@ main {
   font-size: 1.7em;
   letter-spacing: 1px;
   font-weight: normal;
-  margin-top: 24px;
+  margin-top: 20px;
   line-height: 150%;
 }
 
 .info address {
   color: hsl(75, 94%, 57%);
   font-style: normal;
-  padding-top: 10px;
+  padding-top: 3px;
   letter-spacing: 0.2px;
 }
 
