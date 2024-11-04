@@ -9,6 +9,7 @@ body {
   font-style: normal;
   font-size: 14px;
   color: hsl(0, 0%, 100%);
+  line-height: 150%;
 }
 
 main {
@@ -48,12 +49,13 @@ main {
   letter-spacing: 1px;
   font-weight: normal;
   margin-top: 24px;
+  line-height: 150%;
 }
 
 .info address {
   color: hsl(75, 94%, 57%);
   font-style: normal;
-  padding-top: 9px;
+  padding-top: 4px;
   letter-spacing: 0.2px;
 }
 
@@ -61,7 +63,7 @@ main {
   padding: 24px 0 24px 0;
 }
 
-ol {
+ul {
   list-style: none;
 }
 
@@ -69,8 +71,12 @@ li {
   background: hsl(0, 0%, 20%);
   border-radius: 10px;
   height: 45px;
-  margin-bottom: 16px;
   line-height: 45px;
+  margin-bottom: 16px;
+}
+
+li:last-child {
+  margin: 0;
 }
 
 a {
@@ -88,4 +94,3 @@ a {
     }
   }
 }
-
