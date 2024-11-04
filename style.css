@@ -55,7 +55,7 @@ main {
 .info address {
   color: hsl(75, 94%, 57%);
   font-style: normal;
-  padding-top: 4px;
+  padding-top: 10px;
   letter-spacing: 0.2px;
 }
 
