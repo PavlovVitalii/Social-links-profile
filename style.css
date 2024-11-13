@@ -18,6 +18,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
 
 .card {
@@ -94,3 +95,19 @@ a {
     }
   }
 }
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 465px;
+  }
+}
+
+@media (max-width: 375px) {
+  main, .card{
+    padding: 24px;
+  }
+
+
+}
+
+
